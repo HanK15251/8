@@ -1,0 +1,153 @@
+--首先 这是基本的理解 也就是最基本的了
+--每一个ui 写法不同 没有规律的 需要看你 可以理解不
+local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/FUEx0f3G"))()--这个是 ui 他代表你可以 看不看 的画面
+local Window = OrionLib:MakeWindow({Name = "悬浮窗名显示的字", HidePremium = false, SaveConfig = true,IntroText = "欢迎使用江脚本", ConfigFolder = "这个不代表什么可以随便写其他的"})
+
+--这个就是 Tab 相当于分类区
+local Tab = Window:MakeTab({
+    Name = "功能分类名",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "功能名",
+	Callback = function()
+local main = window:Tab("主要的", "17493876383")--1
+local amusement = window:Tab("娱乐", "17493876383")--1
+local SettingsTab = window:Tab("设置", "6034509993")--2
+local CNScript = window:Tab("脚本中心", "6031302918")--3
+local FEScript = window:Tab("FE", "6022668955")--4
+local buildaship = window:Tab("造船寻宝", "6031097229")--5
+local Natural = window:Tab("自然灾害生存", "6031097229")--6
+local prison = window:Tab("监狱人生", "6031097229")--7
+local ninja = window:Tab("忍者传奇", "6031097229")--8
+local shark = window:Tab("鲨口生求 1＆2", "6031097229")--9
+local speed = window:Tab("极速传奇", "6031097229")--10
+local force = window:Tab("力量传奇", "6031097229")--11
+local hunt = window:Tab("寻宝模拟器", "6031097229")--12
+local breaks = window:Tab("Break in 1＆2", "6031097229")--13二个服务器
+local Field = window:Tab("Field Trip Z", "6031097229")--14
+local TheRake = window:Tab("The Rake", "6031097229")--15
+local Evade = window:Tab("Evade", "6031097229")--16
+local destroyer = window:Tab("破坏者谜团", "6031097229")--17
+local FM1 = window:Tab("伐木大亨2", "6031097229")--18
+local Blade = window:Tab("刀刃球", "6031097229")--19
+local TDS = window:Tab("TDS&TDX", "6031097229")--20二个服务器
+local DOORSHUB = window:Tab("DOORS", "6031067241")--21
+local bruh = window:Tab("一路向西", "6031097229")--22
+local china = window:Tab("河北唐县", "5012544693")--23
+local palm = window:Tab("巴掌大战", "6031097229")--24
+local magic = window:Tab("法宝模拟器", "6031097229")--25
+local RNG = window:Tab("sol'RNG", "6031097229")--26
+local Wartycoon = window:Tab("战争大亨", "6031097229")--27
+local strength = window:Tab("超级大力士模拟器", "6031097229")--28
+local rainbow = window:Tab("彩虹朋友", "6031097229")--29
+local Snow = window:Tab("铲雪模拟器", "6031097229")--30
+local zombie = window:Tab("进攻的僵尸", "6031097229")--31
+local strongest = window:Tab("最强战场", "6031097229")--32
+local vividness = window:Tab("动感星期五", "6031097229")--33
+local infectious = window:Tab("感染性微笑", "6031097229")--34
+local bfand = window:Tab("bf", "6031097229")--35
+local LLL = window:Tab("内脏与黑火药", "6031097229")--36
+local LLLL = window:Tab("披萨店", "6035121914")--37
+local l3008l = window:Tab("3008", "6031097229")--38
+local pig = window:Tab("恐怖小猪", "6031097229")--39
+local pqkao = window:Tab("幸运方块大乱斗", "6031097229")--40
+local FULLMOVIE = window:Tab("住宅大屠杀", "6031097229")--41
+local aaakqnja = window:Tab("蜂群模拟器", "6031097229")--41
+local Akmala = window:Tab("露营1-3", "6031097229")--42三个服务器
+local AJHAKAB = window:Tab("举重模拟器", "6031097229")--43
+local AJBAKQJ = window:Tab("俄亥俄州", "6031097229")--44
+local AJBAKAN = window:Tab("钓鱼模拟器", "6031097229")--45
+local AJBAKAA = window:Tab("最强拳击模拟器", "6031097229")--46
+local AJBAKAP = window:Tab("小偷模拟器", "6031097229")--47
+local AJBAKAL = window:Tab("越狱", "6031097229")--48
+local jwjaknj = window:Tab("火箭发射模拟器", "6031097229")--50
+local jwjakn = window:Tab("怪兽宇宙", "6031097229")--51
+local jwjak = window:Tab("战斗勇士", "6031097229")--52   共57
+local jwja = window:Tab("逃离建筑", "6031097229")--53   共59
+local AJAKAK = window:Tab("兵工厂", "6031097229")
+print("🔘功能-加载成功！")
+----------------------------------------------------------------------------------------------------------------------------------------
+end
+})    
+local OrionLib = loadstring(game:HttpGet('https://pastebin.com/raw/xLRUSiKx'))()
+local Window = OrionLib:MakeWindow({Name = "江脚本", HidePremium = false, SaveConfig = true,IntroText = "欢迎使用江脚本", ConfigFolder = "不代表什么"})
+local Tab = Window:MakeTab({
+    Name = "功能分类名",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "功能名",
+	Callback = function()
+脚本
+end
+})    
+Tab:AddButton({
+	Name = "功能名",
+	Callback = function()
+脚本
+end
+})
+
+local Tab = Window:MakeTab({
+    Name = "功能分类名",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "江脚本",
+	Callback = function()
+脚本
+end
+})    
+Tab:AddButton({
+	Name = "江脚本",
+	Callback = function()
+脚本
+end
+})......
+
+--然后这个就是北京时间-北京时间可以放在最前面 也可以相当于一个按钮的
+local LBLG = Instance.new("ScreenGui", getParent)
+local LBL = Instance.new("TextLabel", getParent)
+local player = game.Players.LocalPlayer
+
+LBLG.Name = "LBLG"
+LBLG.Parent = game.CoreGui
+LBLG.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+LBLG.Enabled = true
+LBL.Name = "LBL"
+LBL.Parent = LBLG
+LBL.BackgroundColor3 = Color3.new(1, 1, 1)
+LBL.BackgroundTransparency = 1
+LBL.BorderColor3 = Color3.new(0, 0, 0)
+LBL.Position = UDim2.new(0.75,0,0.010,0)
+LBL.Size = UDim2.new(0, 133, 0, 30)
+LBL.Font = Enum.Font.GothamSemibold
+LBL.Text = "TextLabel"
+LBL.TextColor3 = Color3.new(1, 1, 1)
+LBL.TextScaled = true
+LBL.TextSize = 14
+LBL.TextWrapped = true
+LBL.Visible = true
+
+local FpsLabel = LBL
+local Heartbeat = game:GetService("RunService").Heartbeat
+local LastIteration, Start
+local FrameUpdateTable = { }
+
+local function HeartbeatUpdate()
+  LastIteration = tick()
+  for Index = #FrameUpdateTable, 1, -1 do
+FrameUpdateTable[Index + 1] = (FrameUpdateTable[Index] >= LastIteration - 1) and FrameUpdateTable[Index] or nil
+  end
+  FrameUpdateTable[1] = LastIteration
+  local CurrentFPS = (tick() - Start >= 1 and #FrameUpdateTable) or (#FrameUpdateTable / (tick() - Start))
+CurrentFPS = CurrentFPS - CurrentFPS % 1
+  FpsLabel.Text = ("北京时间:"..os.date("%H").."时"..os.date("%M").."分"..os.date("%S"))
+end
+Start = tick()
